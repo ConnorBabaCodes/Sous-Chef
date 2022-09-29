@@ -509,7 +509,7 @@ footer {
   grid-auto-flow: column;
   grid-auto-columns: 21%;
   justify-content: left;
-  gap: 5px;
+  gap: 1rem;
 
   overflow-x: auto;
   overscroll-behavior-inline: contain
