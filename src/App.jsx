@@ -1,7 +1,7 @@
 import Header from '/src/components/Header'
 import Footer from '/src/components/Footer'
 import Pages from './pages/Pages'
-
+import ScrollToTop from '/src/components/ScrollToTop'
 import {useState} from 'react'
 
 
@@ -23,6 +23,7 @@ function recipeSearch(query) {
 
   return (
     <div className="App">
+      <ScrollToTop />
       <Header recipeSearch={recipeSearch} recipeSearchList={recipeSearchList}/>
       <Pages chooseRecipe={chooseRecipe} currentRecipe={currentRecipe} recipeSearchList={recipeSearchList}/>
       <Footer />
