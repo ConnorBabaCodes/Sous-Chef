@@ -5,7 +5,7 @@ export default function Edamam() {
     return (
         <div className="landing-info edamam">
             <div>
-                <img src={Image3} />
+                <img src="https://raw.githubusercontent.com/ConnorBabaCodes/Sous-Chef/main/public/image3.jpg" />
             </div>
             <div >
                 <div className="landing-text blue" >

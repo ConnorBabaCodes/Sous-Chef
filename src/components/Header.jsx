@@ -57,7 +57,7 @@ const navigateToRecipeSearch = () => {
     return (
         <header>
          
-          <Link className="home-button" to='/'>
+          <Link className="home-button" to='/Sous-Chef'>
         <img className="header-img"src="logo.png"/>
         <h1>Home</h1>
         </Link>
