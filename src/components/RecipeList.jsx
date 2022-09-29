@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+
+
 export default function RecipeList(props) {
 
     const [recipeList, setRecipeList] = React.useState([])
@@ -27,9 +29,6 @@ const IhateAPIs = `https://api.edamam.com/api/recipes/v2?type=public&q=${props.g
 
 
 
-function testing() {
-    console.log(recipeList[0])
-}
 
 function changeRecipe(value) {
     
@@ -82,36 +81,5 @@ function changeRecipe(value) {
             </div>
 )
 
-
-
-
-
-
-
-
-
-     /*   <div className="recipe-list">
-           <button onClick={testing}>testing</button>
-        <button onClick={() => {changeRecipe({...recipeList})}}>Choose Recipe</button>
-                <div className="recipe-card">
-                    <p>{recipeList[0].recipe.label}</p>
-                <div className="recipe-photo-container" >
-                <Link to='/recipe' onClick={() => {changeRecipe('eggplant')}}>
-                    
-                    <img  className="recipe-photo" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/113777-0b21d44.jpg"/>
-                    <p className="time">🕒 15 mins</p>
-                    <p className="rating"> ★ 4.5</p>
-                   
-                    </Link>
-                </div>
-
-
-                
-                </div>
-
-               
-            </div>
-
-            */
     
 }
