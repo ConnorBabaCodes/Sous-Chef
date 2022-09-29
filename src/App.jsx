@@ -1,20 +1,31 @@
-import { useState } from 'react'
-
 import Header from '/src/components/Header'
-import Hero from '/src/components/Hero'
-import HomeSearch from '/src/components/HomeSearch'
+import Footer from '/src/components/Footer'
+import Pages from './pages/Pages'
+
+import {useState} from 'react'
+
+
+
 
 function App() {
+const [currentRecipe, setCurrentRecipe] = useState('initial')
+const [recipeSearchList, setRecipeSearchList] = useState([])
 
+
+function chooseRecipe(selection) {
+  setCurrentRecipe(selection)
+  console.log(selection)
+}
+
+function recipeSearch(query) {
+  setRecipeSearchList(query)
+}
 
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <main>
-      <HomeSearch />
-      </main>
-      <footer>this is the footer</footer>
+      <Header recipeSearch={recipeSearch} recipeSearchList={recipeSearchList}/>
+      <Pages chooseRecipe={chooseRecipe} currentRecipe={currentRecipe} recipeSearchList={recipeSearchList}/>
+      <Footer />
     </div>
   )
 }
