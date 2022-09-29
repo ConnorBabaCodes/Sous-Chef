@@ -14,7 +14,7 @@ export default function About() {
             </div>
 
             <div>
-                <img src="https://github.com/ConnorBabaCodes/Sous-Chef/blob/main/public/image1.jpg" />
+                <img src="https://raw.githubusercontent.com/ConnorBabaCodes/Sous-Chef/main/public/image1.jpg" />
             </div>
         </div>
     )
