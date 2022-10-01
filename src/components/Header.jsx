@@ -71,7 +71,7 @@ const navigateToRecipeSearch = () => {
           value={searchQuery.searchValue}/>
          
           
-          <button class="search-button" type="submit" onClick={navigateToRecipeSearch}><Search /></button>
+          <button className="search-button" type="submit" onClick={navigateToRecipeSearch}><Search /></button>
         
           </form>
         </nav>
