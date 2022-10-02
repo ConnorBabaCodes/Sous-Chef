@@ -1,5 +1,7 @@
 import React from 'react'
-import Image1 from '/public/Image1.jpg'
+import L from '/public/Image1.jpg'
+import M from '/public/Image1-960.jpg'
+import S from '/public/Image1-480.jpg'
 
 export default function About() {
     return (
@@ -14,7 +16,7 @@ export default function About() {
             </div>
 
             <div>
-                <img src={Image1} alt="img" />
+                <img src={S} srcSet={`${S} 480w, ${M} 960w, ${L} 1920w`} alt="img" />
             </div>
         </div>
     )

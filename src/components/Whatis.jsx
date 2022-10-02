@@ -1,5 +1,7 @@
 import React from 'react'
-import Image2 from '/public/Image2.jpg'
+import L from '/public/Image2.jpg'
+import M from '/public/Image2-960.jpg'
+import S from '/public/Image2-480.jpg'
 
 export default function Whatis() {
     return (
@@ -14,7 +16,7 @@ export default function Whatis() {
             </div>
             </div>
             <div>
-                <img src={Image2} alt="img" />
+            <img src={S} srcSet={`${S} 480w, ${M} 960w, ${L} 1920w`} alt="img" />
             </div>
         </div>
     )
