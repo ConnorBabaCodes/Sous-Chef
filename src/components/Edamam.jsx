@@ -1,11 +1,11 @@
 import React from 'react'
-import Image3 from '/image3.jpg'
+import Image3 from '/Image3.jpg'
 
 export default function Edamam() {
     return (
         <div className="landing-info edamam">
             <div>
-                <img src={Image3} />
+                <img src={Image3} alt="img" />
             </div>
             <div >
                 <div className="landing-text blue" >

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image2 from '/image2.jpg'
+import Image2 from '/Image2.jpg'
 
 export default function Whatis() {
     return (
@@ -14,7 +14,7 @@ export default function Whatis() {
             </div>
             </div>
             <div>
-                <img src={Image2} />
+                <img src={Image2} alt="img" />
             </div>
         </div>
     )

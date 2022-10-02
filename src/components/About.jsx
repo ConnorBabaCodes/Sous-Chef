@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from '/image1.jpg'
+import Image1 from '/Image1.jpg'
 
 export default function About() {
     return (
@@ -14,7 +14,7 @@ export default function About() {
             </div>
 
             <div>
-                <img src={Image1} />
+                <img src={Image1} alt="img" />
             </div>
         </div>
     )
