@@ -1,5 +1,5 @@
 import React from 'react'
-import Image2 from '/Image2.jpg'
+import Image2 from '/public/Image2.jpg'
 
 export default function Whatis() {
     return (

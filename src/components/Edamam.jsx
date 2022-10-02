@@ -1,5 +1,5 @@
 import React from 'react'
-import Image3 from '/Image3.jpg'
+import Image3 from '/public/Image3.jpg'
 
 export default function Edamam() {
     return (
