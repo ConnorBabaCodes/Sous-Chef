@@ -14,7 +14,7 @@ export default function Whatis() {
             </div>
             </div>
             <div>
-                <img src="https://raw.githubusercontent.com/ConnorBabaCodes/Sous-Chef/main/public/image2.jpg" />
+                <img src="/image2.jpg" />
             </div>
         </div>
     )
